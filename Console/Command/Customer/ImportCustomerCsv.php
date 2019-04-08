@@ -11,7 +11,7 @@ use League\Csv\Statement;
 
 class ImportCustomerCsv extends AbstractImportCommand
 {
-    const IMPORT_FILE = "customer.csv";
+    const IMPORT_FILE = "customers.csv";
 
     /**
      * @var \Magento\Framework\Filesystem\Directory\ReadFactory
